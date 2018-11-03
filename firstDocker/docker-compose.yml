@@ -1,0 +1,8 @@
+version: "3"
+services:
+  test:
+     build: ./src
+     volumes:
+       - ./src:/usr/src/app
+     ports:
+       - 5001:80
